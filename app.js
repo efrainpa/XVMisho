@@ -112,7 +112,7 @@ function cargaDias(segundos, minutos, horas) {
 setInterval(cargarSegundo, 1000);
 
 function play(){
-    var audio = new Audio('musica/Cuando empezare a vivir (audio).mp3');
+    var audio = new Audio('musica/misho2.mp3');
     audio.play();
     var boton = document.getElementById('btn-play');
     boton.disabled=true;
